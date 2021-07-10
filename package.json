@@ -1,0 +1,31 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon root.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akki4134/blogApi.git"
+  },
+  "author": "akhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akki4134/blogApi/issues"
+  },
+  "homepage": "https://github.com/akki4134/blogApi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
